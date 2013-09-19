@@ -1,0 +1,9 @@
+*.exe
+*.pdb
+*.cache
+*.suo
+*.jpg
+*.dll
+*.txt
+*.xls
+SQS.UI/*
