@@ -17,7 +17,7 @@ namespace SQS.UI.Pages.BasicInformationManagement
             if (!IsPostBack)
             {
                 //设置取消按钮事件
-                Button_Cancel.OnClientClick = ActiveWindow.GetHideRefreshReference();
+                Button_Cancel.OnClientClick = ActiveWindow.GetHideReference();
 
                 ViewState["id"] = Request.QueryString["id"];
                 ViewState["source"] = Request.QueryString["source"];
@@ -43,7 +43,7 @@ namespace SQS.UI.Pages.BasicInformationManagement
                 if (BasicInformationManagementCtrl.UpdatePublishGradeNameForPaper(id, newName, ref exception))
                 {
                     Alert.ShowInTop("修改成功！", MessageBoxIcon.Information);
-                    PageContext.RegisterStartupScript(ActiveWindow.GetHideReference());
+                    PageContext.RegisterStartupScript(ActiveWindow.GetHidePostBackReference());
                 }
                 else
                 {

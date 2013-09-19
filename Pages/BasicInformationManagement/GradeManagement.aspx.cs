@@ -28,6 +28,11 @@ namespace SQS.UI.Pages.BasicInformationManagement
         {
             bindInformationToGrid();
         }
+
+        protected void Window_Update_Close(object sender, WindowCloseEventArgs e)
+        {
+            bindInformationToGrid();
+        }
         #endregion
 
         #region Private Method
@@ -36,6 +41,7 @@ namespace SQS.UI.Pages.BasicInformationManagement
         /// </summary>
         private void bindInformationToGrid()
         {
+            //Alert.ShowInTop("刷新");
             bindPublishGradeForPaperToGrid();
             bindPublishGradeForBookToGrid();
             bindTopicGradeToGrid();

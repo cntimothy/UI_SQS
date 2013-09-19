@@ -50,7 +50,7 @@
         </Items>
     </x:Panel>
     <x:Window ID="Window1" runat="server" BodyPadding="5px" Height="200px" IsModal="true"
-        Popup="false" Title="Window" Width="500px" EnableIFrame="true" IFrameUrl="about:blank" Target="Top">
+        Popup="false" Title="Window" Width="500px" EnableIFrame="true" IFrameUrl="about:blank" Target="Top" EnableClose="false" OnClose="Window1_Close">
     </x:Window>
     </form>
 </body>

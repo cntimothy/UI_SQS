@@ -36,7 +36,7 @@ namespace SQS.UI.Pages.BasicInformationManagement
             if (BasicInformationManagementCtrl.AddNewDepart(newDepartName, ref exception))
             {
                 Alert.ShowInTop("新增成功！", MessageBoxIcon.Information);
-                PageContext.RegisterStartupScript(ActiveWindow.GetHideReference());
+                PageContext.RegisterStartupScript(ActiveWindow.GetHidePostBackReference());
             }
             else
             {

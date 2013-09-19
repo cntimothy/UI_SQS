@@ -25,7 +25,13 @@ namespace SQS.UI.Pages.BasicInformationManagement
         #endregion
 
         #region Event
+        //刷新按钮事件
         protected void Button_Refresh_Click(object sender, EventArgs e)
+        {
+            bindDepartOfficeToGrid();
+        }
+        //窗口关闭事件
+        protected void Window1_Close(object sender, EventArgs e)
         {
             bindDepartOfficeToGrid();
         }

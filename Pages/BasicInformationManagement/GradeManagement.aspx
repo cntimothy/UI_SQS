@@ -112,7 +112,7 @@
     </x:Panel>
     <x:Window ID="Window_Update" runat="server" BodyPadding="5px" Height="200px" IsModal="true"
         Popup="false" Title="修改" Width="500px" EnableIFrame="true" IFrameUrl="about:blank"
-        Target="Top">
+        Target="Top" OnClose="Window_Update_Close" EnableClose="false">
     </x:Window>
     </form>
 </body>

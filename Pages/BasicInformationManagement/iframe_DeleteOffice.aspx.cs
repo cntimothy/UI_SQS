@@ -41,7 +41,7 @@ namespace SQS.UI.Pages.BasicInformationManagement
             if (BasicInformationManagementCtrl.DeleteOffice(officeId, ref exception))
             {
                 Alert.ShowInTop("删除成功！", MessageBoxIcon.Information);
-                PageContext.RegisterStartupScript(ActiveWindow.GetHideReference());
+                PageContext.RegisterStartupScript(ActiveWindow.GetHidePostBackReference());
             }
             else
             {

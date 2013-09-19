@@ -23,6 +23,11 @@ namespace SQS.UI.Pages.BasicInformationManagement
         #endregion
 
         #region Event
+        /// <summary>
+        /// 新增按钮事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         protected void Button_AddNew_Click(object sender, EventArgs e)
         {
             if (TextBox_OfficeName.Text.Trim() == "")
@@ -36,7 +41,7 @@ namespace SQS.UI.Pages.BasicInformationManagement
             if (BasicInformationManagementCtrl.AddNewOffice(departId, newName, ref exception))
             {
                 Alert.ShowInTop("新增成功！", MessageBoxIcon.Information);
-                PageContext.RegisterStartupScript(ActiveWindow.GetHideReference());
+                PageContext.RegisterStartupScript(ActiveWindow.GetHidePostBackReference());
             }
             else
             {
