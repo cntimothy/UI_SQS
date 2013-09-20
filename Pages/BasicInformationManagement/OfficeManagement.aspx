@@ -18,15 +18,11 @@
                     </x:Button>
                     <x:ToolbarSeparator ID="ToolbarSeparator1" runat="server">
                     </x:ToolbarSeparator>
-                    <x:Button ID="Button_AddDepart" runat="server" Text="新增部系">
+                    <x:Button ID="Button_AddDepartOffice" runat="server" Text="新增部系处室">
                     </x:Button>
                     <x:ToolbarSeparator ID="ToolbarSeparator2" runat="server">
                     </x:ToolbarSeparator>
                     <x:Button ID="Button_DeleteDepart" runat="server" Text="删除部系">
-                    </x:Button>
-                    <x:ToolbarSeparator ID="ToolbarSeparator3" runat="server">
-                    </x:ToolbarSeparator>
-                    <x:Button ID="Button_AddOffice" runat="server" Text="新增处室">
                     </x:Button>
                     <x:ToolbarSeparator ID="ToolbarSeparator4" runat="server">
                     </x:ToolbarSeparator>

@@ -92,9 +92,8 @@ namespace SQS.UI.Pages.BasicInformationManagement
         /// </summary>
         private void setButtonEvent()
         {
-            Button_AddDepart.OnClientClick = Window1.GetShowReference("iframe_AddDepart.aspx", "操作");
+            Button_AddDepartOffice.OnClientClick = Window1.GetShowReference("iframe_AddDepartOffice.aspx", "操作");
             Button_DeleteDepart.OnClientClick = Window1.GetShowReference("iframe_DeleteDepart.aspx", "操作");
-            Button_AddOffice.OnClientClick = Window1.GetShowReference("iframe_AddOffice.aspx", "操作");
             Button_DeleteOffice.OnClientClick = Window1.GetShowReference("iframe_DeleteOffice.aspx", "操作");
         }
         #endregion

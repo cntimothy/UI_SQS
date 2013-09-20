@@ -1894,6 +1894,7 @@
     <Content Include="Pages\Common\iframe_UpdateGrade.aspx" />
     <Content Include="Pages\HomePage.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Pages\BasicInformationManagement\iframe_AddDepartOffice.aspx" />
     <Content Include="Pages\InputManagement\BookUpload.aspx" />
     <Content Include="Pages\InputManagement\iframe_ModifyBookInformation.aspx" />
     <Content Include="Pages\InputManagement\iframe_ModifyPaperInformation.aspx" />
@@ -2009,6 +2010,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BasicInformationManagement\iframe_AddDepartOffice.aspx.cs">
+      <DependentUpon>iframe_AddDepartOffice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BasicInformationManagement\iframe_AddDepartOffice.aspx.designer.cs">
+      <DependentUpon>iframe_AddDepartOffice.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\InputManagement\BookUpload.aspx.cs">
       <DependentUpon>BookUpload.aspx</DependentUpon>

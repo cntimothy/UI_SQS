@@ -33,6 +33,7 @@ namespace SQS.UI.Pages.PublicityManagement
             if (PublicityManagementCtrl.StartPublicity(ref exception))
             {
                 Alert.ShowInTop("设置成功！", MessageBoxIcon.Information);
+                loadPublicityStatus();
             }
             else
             {
@@ -51,6 +52,7 @@ namespace SQS.UI.Pages.PublicityManagement
             if (PublicityManagementCtrl.StopPublicity(ref exception))
             {
                 Alert.ShowInTop("设置成功！", MessageBoxIcon.Information);
+                loadPublicityStatus();
             }
             else
             {

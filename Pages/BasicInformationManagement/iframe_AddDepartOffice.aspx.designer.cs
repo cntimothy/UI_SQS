@@ -7,10 +7,10 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace SQS.UI.Pages.BasicInformationManagement {
+namespace SQS.UI.Pages {
     
     
-    public partial class OfficeManegement {
+    public partial class iframe_AddDepartOffice {
         
         /// <summary>
         /// form1 控件。
@@ -49,13 +49,13 @@ namespace SQS.UI.Pages.BasicInformationManagement {
         protected global::FineUI.Toolbar Toolbar1;
         
         /// <summary>
-        /// Button_Refresh 控件。
+        /// Button_AddNew 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::FineUI.Button Button_Refresh;
+        protected global::FineUI.Button Button_AddNew;
         
         /// <summary>
         /// ToolbarSeparator1 控件。
@@ -67,49 +67,13 @@ namespace SQS.UI.Pages.BasicInformationManagement {
         protected global::FineUI.ToolbarSeparator ToolbarSeparator1;
         
         /// <summary>
-        /// Button_AddDepartOffice 控件。
+        /// Button_Cancel 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::FineUI.Button Button_AddDepartOffice;
-        
-        /// <summary>
-        /// ToolbarSeparator2 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::FineUI.ToolbarSeparator ToolbarSeparator2;
-        
-        /// <summary>
-        /// Button_DeleteDepart 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::FineUI.Button Button_DeleteDepart;
-        
-        /// <summary>
-        /// ToolbarSeparator4 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::FineUI.ToolbarSeparator ToolbarSeparator4;
-        
-        /// <summary>
-        /// Button_DeleteOffice 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::FineUI.Button Button_DeleteOffice;
+        protected global::FineUI.Button Button_Cancel;
         
         /// <summary>
         /// Panel2 控件。
@@ -121,21 +85,66 @@ namespace SQS.UI.Pages.BasicInformationManagement {
         protected global::FineUI.Panel Panel2;
         
         /// <summary>
-        /// Grid1 控件。
+        /// Panel3 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::FineUI.Grid Grid1;
+        protected global::FineUI.Panel Panel3;
         
         /// <summary>
-        /// Window1 控件。
+        /// RadioButton_SelectDepart 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::FineUI.Window Window1;
+        protected global::FineUI.RadioButton RadioButton_SelectDepart;
+        
+        /// <summary>
+        /// DropDownList_Depart 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.DropDownList DropDownList_Depart;
+        
+        /// <summary>
+        /// Panel4 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.Panel Panel4;
+        
+        /// <summary>
+        /// RadioButton_TypeDepart 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.RadioButton RadioButton_TypeDepart;
+        
+        /// <summary>
+        /// TextBox_Depart 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.TextBox TextBox_Depart;
+        
+        /// <summary>
+        /// TextArea_Office 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.TextArea TextArea_Office;
     }
 }

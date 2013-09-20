@@ -36,6 +36,11 @@ namespace SQS.UI.Pages.BasicInformationManagement
 
         protected void Button_Delete_Click(object sender, EventArgs e)
         {
+            if (DropDownList_Office.Items.Count == 1)
+            {
+                Alert.ShowInTop("只有一个处室时不允许删除！", MessageBoxIcon.Warning);
+                return;
+            }
             string officeId = DropDownList_Office.SelectedValue;
             string exception = "";
             if (BasicInformationManagementCtrl.DeleteOffice(officeId, ref exception))
